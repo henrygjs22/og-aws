@@ -29,3 +29,13 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Terraform
+**/.terraform/
+
+# Terraform state files (generated)
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files (usually env-specific)
+*.tfvars
